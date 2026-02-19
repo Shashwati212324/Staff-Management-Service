@@ -42,22 +42,18 @@ Controller → Service → Repository → Database
 
 ## 📂 Project Structure
 
+```text
 src/main/java/
-|
-|
+│
 ├── controller      # REST Controllers
-|
 ├── service         # Business Logic
-|
 ├── repository      # Data Access Layer
-|
 ├── entity          # JPA Entities
-|
 ├── dto             # Data Transfer Objects
-|
 ├── config          # Configuration Classes
-|
 └── StaffManagementServiceApplication.java
+```
+
 
 ## ✨ Features
 
