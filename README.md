@@ -1,10 +1,10 @@
-#🚀 Staff Management Service
+# 🚀 Staff Management Service
 
 A RESTful backend application built using Spring Boot for managing organizational staff records.
 
 This service provides CRUD APIs to create, retrieve, update, and delete employee and department data using a layered architecture approach.
 
-##📌 Overview
+## 📌 Overview
 
 Staff Management Service is designed to demonstrate backend development best practices including:
 
@@ -18,7 +18,7 @@ In-memory database integration
 
 Clean and modular project structure
 
-##🛠 Tech Stack
+## 🛠 Tech Stack
 
 Java 21
 
@@ -40,7 +40,7 @@ The application follows a clean layered architecture:
 
 Controller → Service → Repository → Database
 
-##📂 Project Structure
+## 📂 Project Structure
 src/main/java/
 │
 ├── controller      # REST Controllers
@@ -51,7 +51,7 @@ src/main/java/
 ├── config          # Configuration Classes
 └── StaffManagementServiceApplication.java
 
-##✨ Features
+## ✨ Features
 
 Add new staff member
 
@@ -67,37 +67,39 @@ Department management support
 
 In-memory database for development/testing
 
-##▶️ Running the Application
+## ▶️ Running the Application
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/Staff-Management-Service.git
 cd Staff-Management-Service
 
 2️⃣ Build the Project
-./gradlew clean build
 
+./gradlew clean build
 
 Windows:
 
 .\gradlew clean build
 
 3️⃣ Run the Application
-./gradlew bootRun
 
+./gradlew bootRun
 
 Application will start at:
 
 http://localhost:8080
 
-##🌐 API Endpoints
-Employee APIs
-Method	Endpoint	Description
+## 🌐 API Endpoints
+
+Employee APIs - Method	Endpoint	Description
+
 GET	/employees	Get all employees
 GET	/employees/{id}	Get employee by ID
 POST	/employees	Create new employee
 PUT	/employees/{id}	Update employee
 DELETE	/employees/{id}	Delete employee
 
-##🧪 Testing the APIs
+## 🧪 Testing the APIs
 
 You can test the APIs using:
 
@@ -112,7 +114,7 @@ Access H2 Console at:
 http://localhost:8080/h2-console
 
 
-##Default configuration:
+## Default configuration:
 
 JDBC URL: jdbc:h2:mem:testdb
 Username: sa
@@ -125,7 +127,7 @@ Password: (leave blank)
   "department": "IT"
 }
 
-##🎯 Key Learnings
+## 🎯 Key Learnings
 
 RESTful API development with Spring Boot
 
@@ -137,7 +139,7 @@ Gradle build configuration
 
 Environment-based project setup
 
-##🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Global exception handling
 
