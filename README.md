@@ -95,13 +95,16 @@ http://localhost:8080
 
 ## 🌐 API Endpoints
 
-Employee APIs - Method	Endpoint	Description
 
-GET	/employees	Get all employees
-GET	/employees/{id}	Get employee by ID
-POST	/employees	Create new employee
-PUT	/employees/{id}	Update employee
-DELETE	/employees/{id}	Delete employee
+
+| Method |     Endpoint      |    Description         |
+|--------|-------------------|------------------------|
+| GET    | /employees        | Get all employees      |
+| GET    | /employees/{id}   | Get employee by ID     |
+| POST   | /employees        | Create new employee    |
+| PUT    | /employees/{id}   | Update employee        |
+| DELETE | /employees/{id}   | Delete employee        |
+
 
 ## 🧪 Testing the APIs
 
