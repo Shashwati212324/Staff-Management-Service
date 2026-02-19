@@ -121,18 +121,22 @@ Access H2 Console at:
 http://localhost:8080/h2-console
 
 
-## Default configuration:
+## 🗄 H2 Console Configuration
 
-JDBC URL: jdbc:h2:mem:testdb
-Username: sa
-Password: (leave blank)
+JDBC URL: `jdbc:h2:mem:testdb`  
+Username: `sa`  
+Password: *(leave blank)*
 
-📦 Sample Request (POST /employees)
+
+## 📦 Sample Request (POST /employees)
+
+```json
 {
   "name": "John Doe",
   "email": "john.doe@example.com",
   "department": "IT"
 }
+```
 
 ## 🎯 Key Learnings
 
@@ -151,8 +155,6 @@ Environment-based project setup
 Global exception handling
 
 Input validation using @Valid
-
-Swagger/OpenAPI documentation
 
 Integration with MySQL or PostgreSQL
 
