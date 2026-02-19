@@ -34,7 +34,7 @@ H2 In-Memory Database
 
 Gradle
 
-##🏗 Architecture
+## 🏗 Architecture
 
 The application follows a clean layered architecture:
 
