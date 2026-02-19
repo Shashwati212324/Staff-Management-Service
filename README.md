@@ -41,14 +41,22 @@ The application follows a clean layered architecture:
 Controller → Service → Repository → Database
 
 ## 📂 Project Structure
+
 src/main/java/
-│
+|
+|
 ├── controller      # REST Controllers
+|
 ├── service         # Business Logic
+|
 ├── repository      # Data Access Layer
+|
 ├── entity          # JPA Entities
+|
 ├── dto             # Data Transfer Objects
+|
 ├── config          # Configuration Classes
+|
 └── StaffManagementServiceApplication.java
 
 ## ✨ Features
